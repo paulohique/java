@@ -21,5 +21,6 @@ public class Main {
     // System.out.println("O cachorro está " + cachorro1.interagir("alimentar "));
 
     System.out.println(cachorro2.getNome());
+    System.out.println(cachorro2.getCor());
  }
 }
