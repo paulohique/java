@@ -1,12 +1,20 @@
 package animais;
 
 public class cachorro {
-    public String nome;
-    public String cor;
-    public int altura;
-    public double peso;
-    public int tamanhoDoRabo;
-    public String estadoEspirito;
+    private String nome;
+    private String cor;
+    private int altura;
+    private double peso;
+    private int tamanhoDoRabo;
+    private String estadoEspirito;
+    // Get e Set para usar em dados
+    public String getNome(){
+        return this.nome;
+    }
+    public void setNome(String nome){
+        if(nome.equals("lily"))
+        this.nome = null;
+    }
 
     public void  comer() {
     }

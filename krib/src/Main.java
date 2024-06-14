@@ -6,7 +6,7 @@ public class Main {
 
     cachorro cachorro1 = new cachorro();
 
-    cachorro1.nome = "Zeruela";
+    cachorro1.setNome("Zeruela"); 
     cachorro1.altura = 24;
     cachorro1.cor = "Vermelho";
     cachorro1.tamanhoDoRabo = 10;
